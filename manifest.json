@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bugger",
+  "description": "Bug reporting chrome extension for the Bugger reporting system.",
+  "version": "1.0",
+  
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "bugreport.html",
+    "default_title": "Click here to change the background!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "system.display"
+  ]
+}

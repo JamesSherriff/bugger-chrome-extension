@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bugger Popup</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+      }
+      
+      input {
+        margin-bottom: 5px;
+        padding: 2px;
+      }
+    </style>
+
+    <script src="options.js"></script>
+  </head>
+
+  <body>
+    <h1>Bugger</h1>
+    <div id="container">
+      <p>Please input the details for your Bugger application.</p>
+      <div id="applicationForm">
+        <input type="text" id="host" placeholder="Host">
+        <p>Please include http:// at the start of your host.</p>
+        <input type="password" id="key" placeholder="Key">
+        <p>Make sure this key is correct.</p>
+        <button id="submit">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
